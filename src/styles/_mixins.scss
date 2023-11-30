@@ -1,0 +1,34 @@
+// Scrollbar
+@mixin scroll-bar {
+  $v-scrollbar-thumb-background: var(--color-text-muted);
+  $v-scrollbar-track-background: var(--color-fill-blank);
+
+  &::-webkit-scrollbar {
+    @apply z-10 w-1.5;
+
+    &:horizontal {
+      @apply h-1.5;
+    }
+
+    &-thumb {
+      @apply rounded w-1.5 bg-[ $v-scrollbar-thumb-background];
+    }
+
+    &-corner {
+      @apply bg-[$v-scrollbar-track-background];
+    }
+
+    &-track {
+      @apply bg-[$v-scrollbar-track-background];
+
+      &-piece {
+        @apply w-1.5 bg-[$v-scrollbar-track-background];
+      }
+    }
+  }
+}
+
+// Utils
+@mixin inline-flex-center {
+  @apply inline-flex justify-center items-center;
+}
