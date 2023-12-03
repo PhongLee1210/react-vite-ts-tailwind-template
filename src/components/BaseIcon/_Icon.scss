@@ -1,23 +1,21 @@
-@layer components {
-  .hi-icon {
-    @apply inline-block bg-inherit text-base text-inherit;
+.hi-icon {
+  @apply inline-block bg-inherit text-base text-inherit;
+}
+
+.hi-icon.hi-icon {
+  &--small {
+    @apply text-sm;
   }
 
-  .hi-icon.hi-icon {
-    &--small {
-      @apply text-sm;
-    }
+  &--large {
+    @apply text-2xl;
+  }
 
-    &--large {
-      @apply text-2xl;
-    }
+  &--left {
+    @apply mr-1;
+  }
 
-    &--left {
-      @apply mr-1;
-    }
-
-    &--right {
-      @apply ml-1;
-    }
+  &--right {
+    @apply ml-1;
   }
 }

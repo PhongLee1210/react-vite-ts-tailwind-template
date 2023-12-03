@@ -7,6 +7,8 @@ import { isEmpty, isNull, isString } from '@shared/utils';
 import { useMountEffect, useUnmountEffect, useUpdateEffect } from '@hooks/index';
 
 // +++ local modules +++
+import './_Ripple.scss'
+
 // +++ type modules +++
 export interface RippleProps {
   className?: string;

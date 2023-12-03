@@ -11,6 +11,8 @@ import BaseIcon from '@components/BaseIcon';
 import { tuple, isFunction, isNull } from '@shared/utils';
 
 // +++ local modules +++
+import './_Button.scss'
+
 // +++ type modules +++
 
 const ButtonHTMLTypes = tuple('submit', 'button', 'reset');

@@ -7,6 +7,8 @@ import classNames from 'classnames';
 // +++ project modules +++
 
 // +++ local modules +++
+import './_Icon.scss'
+
 // +++ type modules +++
 
 export interface BaseIconProps {

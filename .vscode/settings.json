@@ -1,0 +1,21 @@
+{
+  "prettier.enable": true,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "css.customData": [".vscode/tailwind.json"],
+
+
+  "files.insertFinalNewline": true,
+
+  "cSpell.words": ["Hi Chat", "hi-chat"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "eslint.probe": ["typescript", "typescriptreact", "html", "markdown", "json", "jsonc"],
+  "eslint.validate": ["typescript", "typescriptreact", "html", "markdown", "json", "jsonc"]
+}
